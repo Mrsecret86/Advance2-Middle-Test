@@ -1,0 +1,216 @@
+body {
+    margin: 5% 0 0 0;
+    padding: 0;
+}
+
+.main-header {
+    padding-bottom: 3px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 48px;
+    background-color: white;
+    box-shadow: 5px 0 10px gainsboro;
+}
+
+.header-info {
+    text-align: left;
+    color: black;
+    position: absolute;
+    left: 0;
+    padding: 0px;
+    margin: 14px 14px 0px 14px;
+    font-family: sans-serif;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+    font-family: sans-serif;
+}
+
+a {
+    padding: 15px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: whitesmoke;
+}
+
+.dropdown-item:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+a.dropdown-item {
+    min-width: 160px;
+    text-align: left;
+}
+
+li.dropdown-item:hover a.dropdown-item {
+    text-align: left;
+    color: gainsboro;
+}
+
+
+.home{
+    text-align: center;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+
+.home h3{
+    margin-top: 30px;
+}
+
+.home img{
+    width: 600px;
+}
+
+.class{
+    margin-top: 40px;
+}
+
+.class h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.tab {
+    background-color: white;
+    padding: 60px;
+    margin: 10px;
+    width: 250px;
+    min-height: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px darkgrey;
+}
+
+.tab li{
+    list-style-type: circle;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+.tab h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.about{
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 190px;
+    background-color: rgb(227, 225, 225);
+    display: flex;
+}
+
+.aboutus1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.aboutus1 p{
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.about h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+
+.aboutus2 img{
+    width: 200px;
+}
+
+button{
+    background-color: rgb(129, 188, 40);
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgba(121, 163, 128, 0.568);
+    margin-top: 50px;
+  }
+  
+.center-footer {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.left-footer {
+    margin-right: auto;
+    margin-left: 40px;
+}
+  
+.right-footer {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.info-center {
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(158, 190, 139);
+}
+
+.info-left {
+    color: black;
+    text-align: left;
+    width: 100%;
+}
+  
+.info-right {
+    color: black;
+    text-align: right;
+    width: 100%;
+}
+  
